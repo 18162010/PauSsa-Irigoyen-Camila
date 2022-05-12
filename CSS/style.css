@@ -9,8 +9,13 @@ box-sizing: border-box;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+
+
     
     }
+
+
+
 
 body{
     font-family:'Ubuntu', sans-serif;
@@ -211,7 +216,10 @@ height: 500%;}
 h2{
     text-align: center;
 }
-
+.nav-item:hover{
+    background-color: pink;
+   
+}
 
 @media screen and (max-width: 1023px){
     .navbar{

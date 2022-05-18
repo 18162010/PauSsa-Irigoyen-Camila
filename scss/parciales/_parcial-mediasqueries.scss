@@ -34,7 +34,7 @@
 }
  
 @media screen and (max-width: 600px){
-    .header{background-color: palevioletred;
+    .header{background-color: $bg-secondary;
         font-size: 10px;
         justify-items: center;    
     }

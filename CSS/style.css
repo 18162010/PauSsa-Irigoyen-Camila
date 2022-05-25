@@ -13,10 +13,10 @@
   align-items: center;
 }
 
-.img1 {
+/* .img1 {
   width: 100%;
   height: 100%;
-}
+} */
 
 .header__elementoh1 {
   font-style: normal;
@@ -29,6 +29,7 @@
   align-self: center;
   margin-left: 80px;
   margin-top: 30px;
+  padding: 20px;
 }
 
 .header_hijo2 {
@@ -44,6 +45,9 @@
   justify-content: space-between;
 }
 
+main{
+  padding-top: 20px;
+}
 div span {
   display: none;
 }
@@ -67,7 +71,9 @@ div span {
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
   font-style: italic;
-  grid-template-areas: "foto1 foto2 foto2" "foto3 foto3 foto4" "foto5 foto6 foto4";
+  grid-template-areas: "foto1 foto2 foto2"
+ "foto3 foto3 foto4"
+ "foto5 foto6 foto4";
   justify-content: center;
 }
 
@@ -122,6 +128,11 @@ div span {
 .subtitulos__2 {
   padding: 25px;
   font-size: 20px;
+  padding: 20px;
+}
+h4{
+  padding:30px;
+  font-weight: 40px;
 }
 
 .parrafo__ {
@@ -152,6 +163,20 @@ div span {
   margin-right: 30px;
   padding: 10px;
 }
+.div p{
+  font-size: medium;
+  text-align: center;
+  padding: 10px;
+}
+.mapa {
+  padding-top: 20px;
+}
+form { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 
 .footer-RedesSociales__ {
   align-self: center;
@@ -187,7 +212,6 @@ h2 {
 .gradientes {
   background-image: linear-gradient(to right, pink, grey);
   width: 100%;
-  height: 500%;
 }
 
 @media screen and (max-width: 1023px) {
@@ -228,7 +252,9 @@ h2 {
   .header {
     background-color: palevioletred;
     font-size: 10px;
-    justify-items: center;
+  }
+  /* .header__elementoh1 {
+   display: none;
   }
   .logo {
     align-self: center;
@@ -254,6 +280,24 @@ h2 {
   .main h2 {
     display: none;
   }
+  .main{
+    display: none;
+  }
+  .div .h3{
+    display: none;
+  } */
+  .grid {
+    border: 4px solid black;
+    width: 100%;
+    height:auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto;
+  }
+  .main { display: none;
+}
+  
+
   .footer {
     background-color: green;
     font-size: 20px;
@@ -265,8 +309,6 @@ h2 {
     position: relative;
   }
 }
-
-body {
-  color: orange;
-}
 /*# sourceMappingURL=style.css.map */
+
+

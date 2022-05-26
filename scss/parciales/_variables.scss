@@ -1,2 +1,15 @@
 $bg-primary:black;
 $bg-secondary:pink;
+$vista:mobile;
+$grid-hijo: width 100%;
+body{
+    @if $vista== mobile{
+        color: black;
+        background-color: pink;
+    }
+}
+
+@for $var from 1 through 6 {
+    .grid_hijo--#[$i] {
+        width: 100% *$i};
+    }

@@ -1,0 +1,56 @@
+.grid {
+    border: 4px solid black;
+    min-height: 500px;
+    display: grid;
+    background-color: azure;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    font-style: italic;
+    grid-template-areas: "foto1 foto2 foto2"
+   "foto3 foto3 foto4"
+   "foto5 foto6 foto4";
+    justify-content: center;
+  }
+  
+  .grid__hijo--1 {
+    grid-area: foto1;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .grid__hijo--2 {
+    grid-area: foto2;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+  }
+  
+  .grid__hijo--3 {
+    grid-area: foto3;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .grid__hijo--4 {
+    grid-area: foto4;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .grid__hijo--5 {
+    grid-area: foto5;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .grid__hijo--6 {
+    grid-area: foto6;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+  

@@ -5,9 +5,9 @@
 
     $medidas:(     width: 100%,     height: 100%, );
 
-    body{
-        @if $vista==mobile{
-            color: black;
-            background-color: pink;
-        }
-    }
+    // body{
+    //     @if $vista==mobile{
+    //         color: black;
+    //         background-color: pink;
+    //     }
+    // }

@@ -1,3 +1,9 @@
+.h2{
+  font-size: 40px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+
 .grid {
     border: 4px solid black;
     min-height: 500px;
@@ -6,10 +12,13 @@
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     font-style: italic;
-    grid-template-areas: "foto1 foto2 foto2"
-   "foto3 foto3 foto4"
-   "foto5 foto6 foto4";
+    grid-template-areas: 
+    "foto1 foto2 foto7"
+   "foto3 foto9 foto4"
+   "foto5 foto6 foto8";
     justify-content: center;
+    gap: 10px;
+  
   }
   
   .grid__hijo--1 {
@@ -17,6 +26,7 @@
     width: 200px;
     height: 200px;
     overflow: hidden;
+    
   }
   
   .grid__hijo--2 {
@@ -49,6 +59,25 @@
   
   .grid__hijo--6 {
     grid-area: foto6;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+  .grid__hijo--7 {
+    grid-area: foto7;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+  .grid__hijo--8 {
+    grid-area: foto8;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .grid__hijo--9 {
+    grid-area: foto9;
     width: 200px;
     height: 200px;
     overflow: hidden;

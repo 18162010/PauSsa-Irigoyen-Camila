@@ -144,11 +144,10 @@
     }
    
     .footer {
-      background-color: green;
       font-size: 20px;
       border-style: double;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       text-decoration: none;
       margin-top: 40px;
       position: relative;

@@ -4,6 +4,16 @@
     box-sizing: border-box;
   }
   
+  .div_logo{
+    display: flex;
+    justify-content:center;
+   }
+
+  .HOLA{
+    background-color: beige;
+  }
+  
+  
   // .header {
   //   color: white;
   //   background-color: black;
@@ -12,13 +22,7 @@
   //   flex-wrap: wrap;
   //   align-items: center;
   // }
-  .logo {
-   
-    margin-left: 500px;
-    margin-top: 30px;
-    padding: 20px;
-   
-  }
+  
   
   
   .header__elementoh1 {
@@ -53,12 +57,12 @@
   .nav-item:hover {
     background-color: lightblue;
   }
-  .jam-menu{
-    display: none;
-  }
- .jam-close-circle-f{
-   display: none;
- }
+//   .jam-menu{
+//     display: none;
+//   }
+//  .jam-close-circle-f{
+//    display: none;
+//  }
   .pink{
     background-color: pink;
   }
